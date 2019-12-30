@@ -2,7 +2,12 @@
 
 To enable it just create a "env.sh" file with the AWS credentials like this:
 
+export AWS_ACCESS_KEY_ID=AKIAXXXXXXXXXXX
+export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXX
 
+Don't forget to load the enviromental variables with:
+
+source env.sh
 
 Run the commands :
 * terraform init
